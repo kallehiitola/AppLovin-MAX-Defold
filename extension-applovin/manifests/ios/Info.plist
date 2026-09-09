@@ -495,8 +495,10 @@
 {{/applovin.yso_ios}}
         </array>
 
+{{#applovin.ios_user_tracking_usage_description}}
         <key>NSUserTrackingUsageDescription</key>
         <string>{{applovin.ios_user_tracking_usage_description}}</string>
+{{/applovin.ios_user_tracking_usage_description}}
 {{#applovin.google_ios_app_id}}
         <key>GADApplicationIdentifier</key>
         <string>{{applovin.google_ios_app_id}}</string>
